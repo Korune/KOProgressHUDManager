@@ -16,6 +16,8 @@
 		5DB5B1F22135939500A3A59D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5B1F12135939500A3A59D /* main.m */; };
 		5DB5B1FC2135939500A3A59D /* KOProgressHUDManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5B1FB2135939500A3A59D /* KOProgressHUDManagerTests.m */; };
 		5DB5B2072135939500A3A59D /* KOProgressHUDManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5B2062135939500A3A59D /* KOProgressHUDManagerUITests.m */; };
+		5DB5B2172135973F00A3A59D /* KOProgressHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5B2162135973F00A3A59D /* KOProgressHUDManager.m */; };
+		5DB5B219213598BE00A3A59D /* KOProgressHUDManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5DB5B218213598BD00A3A59D /* KOProgressHUDManager.bundle */; };
 		EE6E87DD1270411C85295FB6 /* libPods-KOProgressHUDManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4537ABE91CE8AD8EAFFD60 /* libPods-KOProgressHUDManagerTests.a */; };
 		EF4DF92986CFB3317BB16609 /* libPods-KOProgressHUDManagerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDC878130E622ED1E8064C9 /* libPods-KOProgressHUDManagerUITests.a */; };
 /* End PBXBuildFile section */
@@ -55,6 +57,9 @@
 		5DB5B2022135939500A3A59D /* KOProgressHUDManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KOProgressHUDManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB5B2062135939500A3A59D /* KOProgressHUDManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOProgressHUDManagerUITests.m; sourceTree = "<group>"; };
 		5DB5B2082135939500A3A59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DB5B2152135973F00A3A59D /* KOProgressHUDManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOProgressHUDManager.h; sourceTree = "<group>"; };
+		5DB5B2162135973F00A3A59D /* KOProgressHUDManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOProgressHUDManager.m; sourceTree = "<group>"; };
+		5DB5B218213598BD00A3A59D /* KOProgressHUDManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KOProgressHUDManager.bundle; sourceTree = "<group>"; };
 		5E4537ABE91CE8AD8EAFFD60 /* libPods-KOProgressHUDManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KOProgressHUDManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		627197D9243F003B4F9EE17D /* Pods-KOProgressHUDManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOProgressHUDManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KOProgressHUDManagerUITests/Pods-KOProgressHUDManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		78E623BDEAC520625611C70D /* libPods-KOProgressHUDManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KOProgressHUDManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +123,7 @@
 		5DB5B1E12135939300A3A59D /* KOProgressHUDManager */ = {
 			isa = PBXGroup;
 			children = (
+				5DB5B214213596E900A3A59D /* HUDManager */,
 				5DB5B1E22135939300A3A59D /* AppDelegate.h */,
 				5DB5B1E32135939300A3A59D /* AppDelegate.m */,
 				5DB5B1E52135939300A3A59D /* ViewController.h */,
@@ -147,6 +153,16 @@
 				5DB5B2082135939500A3A59D /* Info.plist */,
 			);
 			path = KOProgressHUDManagerUITests;
+			sourceTree = "<group>";
+		};
+		5DB5B214213596E900A3A59D /* HUDManager */ = {
+			isa = PBXGroup;
+			children = (
+				5DB5B218213598BD00A3A59D /* KOProgressHUDManager.bundle */,
+				5DB5B2152135973F00A3A59D /* KOProgressHUDManager.h */,
+				5DB5B2162135973F00A3A59D /* KOProgressHUDManager.m */,
+			);
+			path = HUDManager;
 			sourceTree = "<group>";
 		};
 		5ED227CBF0F92826F12818EE /* Frameworks */ = {
@@ -237,6 +253,7 @@
 		5DB5B1D72135939300A3A59D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KO;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Korune;
 				TargetAttributes = {
@@ -280,6 +297,7 @@
 			files = (
 				5DB5B1EF2135939400A3A59D /* LaunchScreen.storyboard in Resources */,
 				5DB5B1EC2135939400A3A59D /* Assets.xcassets in Resources */,
+				5DB5B219213598BE00A3A59D /* KOProgressHUDManager.bundle in Resources */,
 				5DB5B1EA2135939300A3A59D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DB5B2172135973F00A3A59D /* KOProgressHUDManager.m in Sources */,
 				5DB5B1E72135939300A3A59D /* ViewController.m in Sources */,
 				5DB5B1F22135939500A3A59D /* main.m in Sources */,
 				5DB5B1E42135939300A3A59D /* AppDelegate.m in Sources */,
@@ -470,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -522,7 +541,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -536,7 +555,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KOProgressHUDManager/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Korune.KOProgressHUDManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -550,7 +572,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KOProgressHUDManager/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Korune.KOProgressHUDManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -564,7 +589,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KOProgressHUDManagerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Korune.KOProgressHUDManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -579,7 +608,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KOProgressHUDManagerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Korune.KOProgressHUDManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -593,7 +626,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KOProgressHUDManagerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Korune.KOProgressHUDManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -607,7 +644,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KOProgressHUDManagerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Korune.KOProgressHUDManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
