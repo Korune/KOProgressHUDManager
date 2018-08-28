@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168E1363831FA4FFF7CA61C0 /* libPods-KOProgressHUDManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E623BDEAC520625611C70D /* libPods-KOProgressHUDManager.a */; };
+		5DB5B1E42135939300A3A59D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5B1E32135939300A3A59D /* AppDelegate.m */; };
+		5DB5B1E72135939300A3A59D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5B1E62135939300A3A59D /* ViewController.m */; };
+		5DB5B1EA2135939300A3A59D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB5B1E82135939300A3A59D /* Main.storyboard */; };
+		5DB5B1EC2135939400A3A59D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB5B1EB2135939400A3A59D /* Assets.xcassets */; };
+		5DB5B1EF2135939400A3A59D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB5B1ED2135939400A3A59D /* LaunchScreen.storyboard */; };
+		5DB5B1F22135939500A3A59D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5B1F12135939500A3A59D /* main.m */; };
+		5DB5B1FC2135939500A3A59D /* KOProgressHUDManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5B1FB2135939500A3A59D /* KOProgressHUDManagerTests.m */; };
+		5DB5B2072135939500A3A59D /* KOProgressHUDManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5B2062135939500A3A59D /* KOProgressHUDManagerUITests.m */; };
+		EE6E87DD1270411C85295FB6 /* libPods-KOProgressHUDManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4537ABE91CE8AD8EAFFD60 /* libPods-KOProgressHUDManagerTests.a */; };
+		EF4DF92986CFB3317BB16609 /* libPods-KOProgressHUDManagerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDC878130E622ED1E8064C9 /* libPods-KOProgressHUDManagerUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DB5B1F82135939500A3A59D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DB5B1D72135939300A3A59D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DB5B1DE2135939300A3A59D;
+			remoteInfo = KOProgressHUDManager;
+		};
+		5DB5B2032135939500A3A59D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DB5B1D72135939300A3A59D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DB5B1DE2135939300A3A59D;
+			remoteInfo = KOProgressHUDManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F93C9DE9A98A8FF58765304 /* Pods-KOProgressHUDManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOProgressHUDManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KOProgressHUDManagerTests/Pods-KOProgressHUDManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		5DB5B1DF2135939300A3A59D /* KOProgressHUDManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOProgressHUDManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB5B1E22135939300A3A59D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DB5B1E32135939300A3A59D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DB5B1E52135939300A3A59D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DB5B1E62135939300A3A59D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DB5B1E92135939300A3A59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DB5B1EB2135939400A3A59D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DB5B1EE2135939400A3A59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DB5B1F02135939500A3A59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DB5B1F12135939500A3A59D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DB5B1F72135939500A3A59D /* KOProgressHUDManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KOProgressHUDManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB5B1FB2135939500A3A59D /* KOProgressHUDManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOProgressHUDManagerTests.m; sourceTree = "<group>"; };
+		5DB5B1FD2135939500A3A59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DB5B2022135939500A3A59D /* KOProgressHUDManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KOProgressHUDManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB5B2062135939500A3A59D /* KOProgressHUDManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOProgressHUDManagerUITests.m; sourceTree = "<group>"; };
+		5DB5B2082135939500A3A59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E4537ABE91CE8AD8EAFFD60 /* libPods-KOProgressHUDManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KOProgressHUDManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		627197D9243F003B4F9EE17D /* Pods-KOProgressHUDManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOProgressHUDManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KOProgressHUDManagerUITests/Pods-KOProgressHUDManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		78E623BDEAC520625611C70D /* libPods-KOProgressHUDManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KOProgressHUDManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89FDFC89547C209D1E1C48E3 /* Pods-KOProgressHUDManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOProgressHUDManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KOProgressHUDManagerTests/Pods-KOProgressHUDManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B70709AB66E0F6B88270BDDC /* Pods-KOProgressHUDManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOProgressHUDManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-KOProgressHUDManager/Pods-KOProgressHUDManager.release.xcconfig"; sourceTree = "<group>"; };
+		C3A4E68DD58231224E6DB924 /* Pods-KOProgressHUDManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOProgressHUDManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KOProgressHUDManager/Pods-KOProgressHUDManager.debug.xcconfig"; sourceTree = "<group>"; };
+		EBDC878130E622ED1E8064C9 /* libPods-KOProgressHUDManagerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KOProgressHUDManagerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C685BDCC2B8174EF5791C2 /* Pods-KOProgressHUDManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOProgressHUDManagerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KOProgressHUDManagerUITests/Pods-KOProgressHUDManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DB5B1DC2135939300A3A59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168E1363831FA4FFF7CA61C0 /* libPods-KOProgressHUDManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB5B1F42135939500A3A59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6E87DD1270411C85295FB6 /* libPods-KOProgressHUDManagerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB5B1FF2135939500A3A59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4DF92986CFB3317BB16609 /* libPods-KOProgressHUDManagerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DB5B1D62135939300A3A59D = {
+			isa = PBXGroup;
+			children = (
+				5DB5B1E12135939300A3A59D /* KOProgressHUDManager */,
+				5DB5B1FA2135939500A3A59D /* KOProgressHUDManagerTests */,
+				5DB5B2052135939500A3A59D /* KOProgressHUDManagerUITests */,
+				5DB5B1E02135939300A3A59D /* Products */,
+				65AC5F0CDA63DCD18C042CC9 /* Pods */,
+				5ED227CBF0F92826F12818EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DB5B1E02135939300A3A59D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DB5B1DF2135939300A3A59D /* KOProgressHUDManager.app */,
+				5DB5B1F72135939500A3A59D /* KOProgressHUDManagerTests.xctest */,
+				5DB5B2022135939500A3A59D /* KOProgressHUDManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DB5B1E12135939300A3A59D /* KOProgressHUDManager */ = {
+			isa = PBXGroup;
+			children = (
+				5DB5B1E22135939300A3A59D /* AppDelegate.h */,
+				5DB5B1E32135939300A3A59D /* AppDelegate.m */,
+				5DB5B1E52135939300A3A59D /* ViewController.h */,
+				5DB5B1E62135939300A3A59D /* ViewController.m */,
+				5DB5B1E82135939300A3A59D /* Main.storyboard */,
+				5DB5B1EB2135939400A3A59D /* Assets.xcassets */,
+				5DB5B1ED2135939400A3A59D /* LaunchScreen.storyboard */,
+				5DB5B1F02135939500A3A59D /* Info.plist */,
+				5DB5B1F12135939500A3A59D /* main.m */,
+			);
+			path = KOProgressHUDManager;
+			sourceTree = "<group>";
+		};
+		5DB5B1FA2135939500A3A59D /* KOProgressHUDManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DB5B1FB2135939500A3A59D /* KOProgressHUDManagerTests.m */,
+				5DB5B1FD2135939500A3A59D /* Info.plist */,
+			);
+			path = KOProgressHUDManagerTests;
+			sourceTree = "<group>";
+		};
+		5DB5B2052135939500A3A59D /* KOProgressHUDManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DB5B2062135939500A3A59D /* KOProgressHUDManagerUITests.m */,
+				5DB5B2082135939500A3A59D /* Info.plist */,
+			);
+			path = KOProgressHUDManagerUITests;
+			sourceTree = "<group>";
+		};
+		5ED227CBF0F92826F12818EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78E623BDEAC520625611C70D /* libPods-KOProgressHUDManager.a */,
+				5E4537ABE91CE8AD8EAFFD60 /* libPods-KOProgressHUDManagerTests.a */,
+				EBDC878130E622ED1E8064C9 /* libPods-KOProgressHUDManagerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65AC5F0CDA63DCD18C042CC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3A4E68DD58231224E6DB924 /* Pods-KOProgressHUDManager.debug.xcconfig */,
+				B70709AB66E0F6B88270BDDC /* Pods-KOProgressHUDManager.release.xcconfig */,
+				89FDFC89547C209D1E1C48E3 /* Pods-KOProgressHUDManagerTests.debug.xcconfig */,
+				3F93C9DE9A98A8FF58765304 /* Pods-KOProgressHUDManagerTests.release.xcconfig */,
+				627197D9243F003B4F9EE17D /* Pods-KOProgressHUDManagerUITests.debug.xcconfig */,
+				F6C685BDCC2B8174EF5791C2 /* Pods-KOProgressHUDManagerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DB5B1DE2135939300A3A59D /* KOProgressHUDManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB5B20B2135939500A3A59D /* Build configuration list for PBXNativeTarget "KOProgressHUDManager" */;
+			buildPhases = (
+				4FD896454E224CB2C38D6C0F /* [CP] Check Pods Manifest.lock */,
+				5DB5B1DB2135939300A3A59D /* Sources */,
+				5DB5B1DC2135939300A3A59D /* Frameworks */,
+				5DB5B1DD2135939300A3A59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KOProgressHUDManager;
+			productName = KOProgressHUDManager;
+			productReference = 5DB5B1DF2135939300A3A59D /* KOProgressHUDManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DB5B1F62135939500A3A59D /* KOProgressHUDManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB5B20E2135939500A3A59D /* Build configuration list for PBXNativeTarget "KOProgressHUDManagerTests" */;
+			buildPhases = (
+				FBFC422D535D0A765636AD6F /* [CP] Check Pods Manifest.lock */,
+				5DB5B1F32135939500A3A59D /* Sources */,
+				5DB5B1F42135939500A3A59D /* Frameworks */,
+				5DB5B1F52135939500A3A59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DB5B1F92135939500A3A59D /* PBXTargetDependency */,
+			);
+			name = KOProgressHUDManagerTests;
+			productName = KOProgressHUDManagerTests;
+			productReference = 5DB5B1F72135939500A3A59D /* KOProgressHUDManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DB5B2012135939500A3A59D /* KOProgressHUDManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB5B2112135939500A3A59D /* Build configuration list for PBXNativeTarget "KOProgressHUDManagerUITests" */;
+			buildPhases = (
+				33B96B5663148FADB3CDF4A3 /* [CP] Check Pods Manifest.lock */,
+				5DB5B1FE2135939500A3A59D /* Sources */,
+				5DB5B1FF2135939500A3A59D /* Frameworks */,
+				5DB5B2002135939500A3A59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DB5B2042135939500A3A59D /* PBXTargetDependency */,
+			);
+			name = KOProgressHUDManagerUITests;
+			productName = KOProgressHUDManagerUITests;
+			productReference = 5DB5B2022135939500A3A59D /* KOProgressHUDManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DB5B1D72135939300A3A59D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Korune;
+				TargetAttributes = {
+					5DB5B1DE2135939300A3A59D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5DB5B1F62135939500A3A59D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5DB5B1DE2135939300A3A59D;
+					};
+					5DB5B2012135939500A3A59D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5DB5B1DE2135939300A3A59D;
+					};
+				};
+			};
+			buildConfigurationList = 5DB5B1DA2135939300A3A59D /* Build configuration list for PBXProject "KOProgressHUDManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DB5B1D62135939300A3A59D;
+			productRefGroup = 5DB5B1E02135939300A3A59D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DB5B1DE2135939300A3A59D /* KOProgressHUDManager */,
+				5DB5B1F62135939500A3A59D /* KOProgressHUDManagerTests */,
+				5DB5B2012135939500A3A59D /* KOProgressHUDManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DB5B1DD2135939300A3A59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB5B1EF2135939400A3A59D /* LaunchScreen.storyboard in Resources */,
+				5DB5B1EC2135939400A3A59D /* Assets.xcassets in Resources */,
+				5DB5B1EA2135939300A3A59D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB5B1F52135939500A3A59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB5B2002135939500A3A59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33B96B5663148FADB3CDF4A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KOProgressHUDManagerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FD896454E224CB2C38D6C0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KOProgressHUDManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBFC422D535D0A765636AD6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KOProgressHUDManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DB5B1DB2135939300A3A59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB5B1E72135939300A3A59D /* ViewController.m in Sources */,
+				5DB5B1F22135939500A3A59D /* main.m in Sources */,
+				5DB5B1E42135939300A3A59D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB5B1F32135939500A3A59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB5B1FC2135939500A3A59D /* KOProgressHUDManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB5B1FE2135939500A3A59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB5B2072135939500A3A59D /* KOProgressHUDManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DB5B1F92135939500A3A59D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DB5B1DE2135939300A3A59D /* KOProgressHUDManager */;
+			targetProxy = 5DB5B1F82135939500A3A59D /* PBXContainerItemProxy */;
+		};
+		5DB5B2042135939500A3A59D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DB5B1DE2135939300A3A59D /* KOProgressHUDManager */;
+			targetProxy = 5DB5B2032135939500A3A59D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DB5B1E82135939300A3A59D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DB5B1E92135939300A3A59D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DB5B1ED2135939400A3A59D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DB5B1EE2135939400A3A59D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DB5B2092135939500A3A59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DB5B20A2135939500A3A59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DB5B20C2135939500A3A59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A4E68DD58231224E6DB924 /* Pods-KOProgressHUDManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KOProgressHUDManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Korune.KOProgressHUDManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DB5B20D2135939500A3A59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70709AB66E0F6B88270BDDC /* Pods-KOProgressHUDManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KOProgressHUDManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Korune.KOProgressHUDManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DB5B20F2135939500A3A59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89FDFC89547C209D1E1C48E3 /* Pods-KOProgressHUDManagerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KOProgressHUDManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Korune.KOProgressHUDManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOProgressHUDManager.app/KOProgressHUDManager";
+			};
+			name = Debug;
+		};
+		5DB5B2102135939500A3A59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F93C9DE9A98A8FF58765304 /* Pods-KOProgressHUDManagerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KOProgressHUDManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Korune.KOProgressHUDManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOProgressHUDManager.app/KOProgressHUDManager";
+			};
+			name = Release;
+		};
+		5DB5B2122135939500A3A59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 627197D9243F003B4F9EE17D /* Pods-KOProgressHUDManagerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KOProgressHUDManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Korune.KOProgressHUDManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KOProgressHUDManager;
+			};
+			name = Debug;
+		};
+		5DB5B2132135939500A3A59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C685BDCC2B8174EF5791C2 /* Pods-KOProgressHUDManagerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KOProgressHUDManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Korune.KOProgressHUDManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KOProgressHUDManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DB5B1DA2135939300A3A59D /* Build configuration list for PBXProject "KOProgressHUDManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB5B2092135939500A3A59D /* Debug */,
+				5DB5B20A2135939500A3A59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DB5B20B2135939500A3A59D /* Build configuration list for PBXNativeTarget "KOProgressHUDManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB5B20C2135939500A3A59D /* Debug */,
+				5DB5B20D2135939500A3A59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DB5B20E2135939500A3A59D /* Build configuration list for PBXNativeTarget "KOProgressHUDManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB5B20F2135939500A3A59D /* Debug */,
+				5DB5B2102135939500A3A59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DB5B2112135939500A3A59D /* Build configuration list for PBXNativeTarget "KOProgressHUDManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB5B2122135939500A3A59D /* Debug */,
+				5DB5B2132135939500A3A59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DB5B1D72135939300A3A59D /* Project object */;
+}
