@@ -18,6 +18,8 @@
 		5DB5B2072135939500A3A59D /* KOProgressHUDManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5B2062135939500A3A59D /* KOProgressHUDManagerUITests.m */; };
 		5DB5B2172135973F00A3A59D /* KOProgressHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5B2162135973F00A3A59D /* KOProgressHUDManager.m */; };
 		5DB5B219213598BE00A3A59D /* KOProgressHUDManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5DB5B218213598BD00A3A59D /* KOProgressHUDManager.bundle */; };
+		5DB5B21F2135A9A800A3A59D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DB5B21D2135A9A800A3A59D /* 2.png */; };
+		5DB5B2202135A9A800A3A59D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DB5B21E2135A9A800A3A59D /* 1.png */; };
 		EE6E87DD1270411C85295FB6 /* libPods-KOProgressHUDManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4537ABE91CE8AD8EAFFD60 /* libPods-KOProgressHUDManagerTests.a */; };
 		EF4DF92986CFB3317BB16609 /* libPods-KOProgressHUDManagerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDC878130E622ED1E8064C9 /* libPods-KOProgressHUDManagerUITests.a */; };
 /* End PBXBuildFile section */
@@ -60,6 +62,8 @@
 		5DB5B2152135973F00A3A59D /* KOProgressHUDManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOProgressHUDManager.h; sourceTree = "<group>"; };
 		5DB5B2162135973F00A3A59D /* KOProgressHUDManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOProgressHUDManager.m; sourceTree = "<group>"; };
 		5DB5B218213598BD00A3A59D /* KOProgressHUDManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KOProgressHUDManager.bundle; sourceTree = "<group>"; };
+		5DB5B21D2135A9A800A3A59D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		5DB5B21E2135A9A800A3A59D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		5E4537ABE91CE8AD8EAFFD60 /* libPods-KOProgressHUDManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KOProgressHUDManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		627197D9243F003B4F9EE17D /* Pods-KOProgressHUDManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOProgressHUDManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KOProgressHUDManagerUITests/Pods-KOProgressHUDManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		78E623BDEAC520625611C70D /* libPods-KOProgressHUDManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KOProgressHUDManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +105,7 @@
 		5DB5B1D62135939300A3A59D = {
 			isa = PBXGroup;
 			children = (
+				5DB5B21C2135A9A800A3A59D /* screenshots */,
 				5DB5B1E12135939300A3A59D /* KOProgressHUDManager */,
 				5DB5B1FA2135939500A3A59D /* KOProgressHUDManagerTests */,
 				5DB5B2052135939500A3A59D /* KOProgressHUDManagerUITests */,
@@ -163,6 +168,15 @@
 				5DB5B2162135973F00A3A59D /* KOProgressHUDManager.m */,
 			);
 			path = HUDManager;
+			sourceTree = "<group>";
+		};
+		5DB5B21C2135A9A800A3A59D /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				5DB5B21D2135A9A800A3A59D /* 2.png */,
+				5DB5B21E2135A9A800A3A59D /* 1.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 		5ED227CBF0F92826F12818EE /* Frameworks */ = {
@@ -297,6 +311,8 @@
 			files = (
 				5DB5B1EF2135939400A3A59D /* LaunchScreen.storyboard in Resources */,
 				5DB5B1EC2135939400A3A59D /* Assets.xcassets in Resources */,
+				5DB5B21F2135A9A800A3A59D /* 2.png in Resources */,
+				5DB5B2202135A9A800A3A59D /* 1.png in Resources */,
 				5DB5B219213598BE00A3A59D /* KOProgressHUDManager.bundle in Resources */,
 				5DB5B1EA2135939300A3A59D /* Main.storyboard in Resources */,
 			);
