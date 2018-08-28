@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		168E1363831FA4FFF7CA61C0 /* libPods-KOProgressHUDManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E623BDEAC520625611C70D /* libPods-KOProgressHUDManager.a */; };
+		5D658E132135AB7D00611714 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5D658E122135AB7D00611714 /* README.md */; };
 		5DB5B1E42135939300A3A59D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5B1E32135939300A3A59D /* AppDelegate.m */; };
 		5DB5B1E72135939300A3A59D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5B1E62135939300A3A59D /* ViewController.m */; };
 		5DB5B1EA2135939300A3A59D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB5B1E82135939300A3A59D /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		3F93C9DE9A98A8FF58765304 /* Pods-KOProgressHUDManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOProgressHUDManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KOProgressHUDManagerTests/Pods-KOProgressHUDManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D658E122135AB7D00611714 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5DB5B1DF2135939300A3A59D /* KOProgressHUDManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOProgressHUDManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB5B1E22135939300A3A59D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5DB5B1E32135939300A3A59D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		5DB5B1D62135939300A3A59D = {
 			isa = PBXGroup;
 			children = (
+				5D658E122135AB7D00611714 /* README.md */,
 				5DB5B21C2135A9A800A3A59D /* screenshots */,
 				5DB5B1E12135939300A3A59D /* KOProgressHUDManager */,
 				5DB5B1FA2135939500A3A59D /* KOProgressHUDManagerTests */,
@@ -312,6 +315,7 @@
 				5DB5B1EF2135939400A3A59D /* LaunchScreen.storyboard in Resources */,
 				5DB5B1EC2135939400A3A59D /* Assets.xcassets in Resources */,
 				5DB5B21F2135A9A800A3A59D /* 2.png in Resources */,
+				5D658E132135AB7D00611714 /* README.md in Resources */,
 				5DB5B2202135A9A800A3A59D /* 1.png in Resources */,
 				5DB5B219213598BE00A3A59D /* KOProgressHUDManager.bundle in Resources */,
 				5DB5B1EA2135939300A3A59D /* Main.storyboard in Resources */,
